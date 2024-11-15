@@ -1,0 +1,32 @@
+# created by virtualenv automatically
+*
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+.DS_Store
+*.log
+*.sqlite3
+# Ignore virtual environment and temporary files
+venv/
+bin/
+lib/
+pyvenv.cfg
+
+# Ignore Python cache
+*.pyc
+__pycache__/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Do not ignore README.md, blog/, or other critical files
+!.gitignore
+!README.md
+!blog/
